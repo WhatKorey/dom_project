@@ -1,4 +1,6 @@
 document.querySelector('#starters_image_div img').style.border = '5px dotted yellow';
+document.body.style.backgroundColor = '#002060'
+
 
 let listItems = document.querySelectorAll('.list ul li');
 listItems[0].textContent = 'Bulbasaur - The Seed Pokémon';
